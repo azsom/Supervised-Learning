@@ -19,6 +19,9 @@ Once your environment is created, please run the test_environment.ipynb. It chec
 ### Part 1: Introduction to machine learning and the bias-variance tradeoff
 This course starts with a high-level overview of supervised machine learning focusing on regression and classification problems, what questions can be answered with these tools, and what the ultimate goal of a machine learning pipeline is. Then we will walk through the math behind linear and logistic regression models with regularization. Finally, we put together a simple pipeline using a toy dataset to illustrate the bias-variance tradeoff, a key concept in machine learning that drives how models are selected.
 
+### Part 2: How to prepare your data for supervised machine learning
+Part 2 of the course series is on how to prepare your data for training and evaluating a machine learning model. Two steps are covered: how to split and preprocess your data. My experience is that beginner practitioners often make a mistake referred to as data leakage when splitting their dataset. Data leakage means that you use information in the model training process which will not be available at prediction time. The unfortunate side effect is that the model seems to perform well in production but poorly in deployment. Two modules are dedicated to splitting with the hope that the participants will be well-equipped to avoid data leakage upon completing the modules. The third module is on preprocessing. There are two driving concepts behind preprocessing: the feature matrix needs to be numerical (no strings or any other data types are allowed when using sklearn), and some machine learning models converge faster and perform better if all features are standardized. 
+
 ## Authors
 
 Andras Zsom (andras_zsom@brown.edu).
