@@ -2,6 +2,8 @@
 
 Supervised Learning is a course series that walks through all steps of the classical supervised machine learning pipeline. We use python and packages like scikit-learn, pandas, numpy, and matplotlib. The course series focuses on topics like cross validation and splitting strategies, evaluation metrics, supervised machine learning algorithms (like linear and logistic regression, support vector machines, and tree-based methods like random forest, gradient boosting, and XGBoost), and interpretability. You can complete the courses in sequence or complete individual courses based on your interest. 
 
+If you are interested in taking these courses, please sign up on the [AI+training site](https://aiplus.odsc.com/courses/supervised-machine-learning-series).
+
 ## Prerequistes
 
 We use jupyter notebooks and python in this course series. The env.yml file contains the python and package versions used to develop the codes in this repository. You can directly use that file to create an environment with conda. On linux and mac, you need to give the following commands in the terminal:
